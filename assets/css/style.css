@@ -1,0 +1,6 @@
+.fondoIndex {
+    background-image: url(../img/fondoHome.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
