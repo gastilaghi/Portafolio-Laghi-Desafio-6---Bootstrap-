@@ -1,6 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .fondoIndex {
-    background-image: url(../img/fondoHome.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  background-image: url(../img/fondoHome.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.footer {
+  margin-top: 90px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+div h5 {
+  font-size: x-small;
 }
