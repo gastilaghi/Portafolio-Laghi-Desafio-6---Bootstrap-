@@ -1,0 +1,15 @@
+.btn{
+    padding: map-get($btn , padding );
+    border: map-get($btn , bordes );
+    border-radius: map-get($btn , radio );
+    @include propiedades(200,auto,#fff)
+}
+
+@each $key , $var in $colores {
+
+    .btn-#{#key}{
+        @extend .btn;
+        background-color: $var;
+    }
+}
+

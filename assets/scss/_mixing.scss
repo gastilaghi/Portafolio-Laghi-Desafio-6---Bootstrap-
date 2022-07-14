@@ -1,0 +1,13 @@
+@mixin propiedades($ancho,$alto,$colorLetra) {
+    width: $ancho;
+    height: $alto;
+    @if($colorletra == claro){
+        color:#fff;
+    }
+    @else if($colorLetra == oscuro){
+        color:#000;
+    }
+    @else{
+        color: $colorPrimario;
+    }
+}

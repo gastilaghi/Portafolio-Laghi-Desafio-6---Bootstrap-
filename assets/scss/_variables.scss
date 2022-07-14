@@ -1,2 +1,22 @@
 $colorPrimario: black;
 $colorSecundario: white;
+
+$justify:(
+    start:start,
+    center:center,
+    end:end,
+    around:space-around,
+    evenly:space-between
+);
+
+$colores:(
+    Primario: rgb(207, 22, 22),
+    Secundario: rgb(245, 159, 19),
+    Terciario: rgb(255, 239, 11)
+);
+
+$btn:(
+    padding:10px 15px,
+    bordes:0,
+    radio:5px,
+);
