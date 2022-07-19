@@ -22,3 +22,8 @@
 div h5 {
   font-size: x-small;
 }
+
+.fontWhite{
+  text-decoration: none;
+  color: white
+}

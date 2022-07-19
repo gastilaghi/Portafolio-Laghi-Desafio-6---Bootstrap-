@@ -6,24 +6,8 @@
 @import "fondoIndex";
 @import "footer";
 
-.card{
-    display: flex;
-    margin: 5px;
-    align-items: center;
-    @include propiedades(500px,auto, oscuro)
-    .text-card{
-        margin-left: 10px;
-    }
-    button{
-        @extend .btn
-        background-color: blue;
-    }
-}
-
-.card-vertical{
-    @extend .card
-    flex-direction: column;
-    @include propiedaddes(200px,auto,oscuro)
+.navegacion{
+    background-color: rgba(255, 255, 255, 0);
 }
 
 
